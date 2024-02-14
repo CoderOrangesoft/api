@@ -11,7 +11,7 @@
 | :-----------------------------------: | :-----------------------: | :----: | :----: |
 | [query_type](#description_query_type) |         消息类型          | string | `必须` |
 |                 limit                 | 每一页的数量`10\|[5,200]` |  int   | `可选` |
-|                offset                 |           页码            |  int   | `可选` |
+|                offset                 |         排除前n个         |  int   | `可选` |
 
 ### `query_type`说明： :id=description_query_type
 
@@ -46,20 +46,21 @@
 
 #### type
 
-|           value           |    description     |
-| :-----------------------: | :----------------: |
-|       WORK_COMMENT        |     作品被评论     |
-|        WORK_REPLY         | 作品下的评论被回复 |
-|     WORK_REPLY_AUTHOR     |                    |
-| WORK_REPLY_REPLY_FEEDBACK |                    |
-|       POST_COMMENT        |                    |
-|        POST_REPLY         |                    |
-|     POST_REPLY_REPLY      |                    |
-| POST_REPLY_REPLY_FEEDBACK |                    |
-|         WORK_FORK         |     作品被购买     |
-|         WORK_LIKE         |     作品被点赞     |
-|   WORK_DISCUSSION_LIKED   |                    |
-|   POST_DISCUSSION_LIKED   |                    |
-|         BROADCAST         |                    |
+|           value           |         description          |
+| :-----------------------: | :--------------------------: |
+|       WORK_COMMENT        |    作品被评论（Kitten端）    |
+|        WORK_REPLY         |      作品下的评论被回复      |
+|     WORK_REPLY_AUTHOR     |                              |
+|     WORK_REPLY_REPLY      | 别人回复自己评论下别人的回复 |
+| WORK_REPLY_REPLY_FEEDBACK |      别人回复自己的回复      |
+|       POST_COMMENT        |                              |
+|        POST_REPLY         |                              |
+|     POST_REPLY_REPLY      |                              |
+| POST_REPLY_REPLY_FEEDBACK |                              |
+|         WORK_FORK         |          作品被购买          |
+|         WORK_LIKE         |          作品被点赞          |
+|   WORK_DISCUSSION_LIKED   |                              |
+|   POST_DISCUSSION_LIKED   |                              |
+|         BROADCAST         |                              |
 
 #### content
