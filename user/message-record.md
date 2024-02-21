@@ -46,21 +46,21 @@
 
 #### type
 
-|           value           |         description          |
-| :-----------------------: | :--------------------------: |
-|       WORK_COMMENT        |    被评论（Kitten端）（作品）    |
-|        WORK_REPLY         |      别人回复你的评论（作品）      |
-|     WORK_REPLY_AUTHOR     |                              |
-|     WORK_REPLY_REPLY      | 别人回复你的评论下你的回复（作品） |
-| WORK_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（作品） |
-|       POST_COMMENT        |                              |
-|        POST_REPLY         | 别人回复你的评论（帖子） |
-|     POST_REPLY_REPLY      | 别人回复你的评论下你的回复（帖子） |
-| POST_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（帖子） |
-|         WORK_FORK         |          作品被购买          |
-|         WORK_LIKE         |          作品被点赞          |
-|   WORK_DISCUSSION_LIKED   |                              |
-|   POST_DISCUSSION_LIKED   |                              |
-|         BROADCAST         |                              |
+|           value           |         description                   |
+| :-----------------------: | :----------------------------------: |
+|       WORK_COMMENT        |    被评论（Kitten端）（作品）           |
+|        WORK_REPLY         |      别人回复你的评论（作品）            |
+|     WORK_REPLY_AUTHOR     |                                       |
+|     WORK_REPLY_REPLY      | 别人回复评论下你的回复（作品）           |
+| WORK_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（作品）        |
+|       POST_COMMENT        |         被评论（帖子）                              |
+|        POST_REPLY         | 别人回复你的评论（帖子）                  |
+|     POST_REPLY_REPLY      | 别人回复评论下你的回复（帖子）           |
+| POST_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（帖子）        |
+|         WORK_FORK         |          作品被购买                |
+|         WORK_LIKE         |          作品被点赞                |
+|   WORK_DISCUSSION_LIKED   |                                   |
+|   POST_DISCUSSION_LIKED   |                                    |
+|         BROADCAST         |                                    |
 
 #### content
