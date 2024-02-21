@@ -48,15 +48,15 @@
 
 |           value           |         description          |
 | :-----------------------: | :--------------------------: |
-|       WORK_COMMENT        |    作品被评论（Kitten端）    |
-|        WORK_REPLY         |      作品下的评论被回复      |
+|       WORK_COMMENT        |    被评论（Kitten端）（作品）    |
+|        WORK_REPLY         |      别人回复你的评论（作品）      |
 |     WORK_REPLY_AUTHOR     |                              |
-|     WORK_REPLY_REPLY      | 别人回复自己评论下别人的回复 |
-| WORK_REPLY_REPLY_FEEDBACK |      别人回复自己的回复      |
+|     WORK_REPLY_REPLY      | 别人回复你的评论下你的回复（作品） |
+| WORK_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（作品） |
 |       POST_COMMENT        |                              |
-|        POST_REPLY         |                              |
-|     POST_REPLY_REPLY      |                              |
-| POST_REPLY_REPLY_FEEDBACK |                              |
+|        POST_REPLY         | 别人回复你的评论（帖子） |
+|     POST_REPLY_REPLY      | 别人回复你的评论下你的回复（帖子） |
+| POST_REPLY_REPLY_FEEDBACK | 别人回复你的评论下别人的回复（帖子） |
 |         WORK_FORK         |          作品被购买          |
 |         WORK_LIKE         |          作品被点赞          |
 |   WORK_DISCUSSION_LIKED   |                              |
